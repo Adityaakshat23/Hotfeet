@@ -1,0 +1,18 @@
+def get_smallest_string(source_str, template_str):
+    result_str = []
+    for char in template_str:
+        if char == 'T':
+            result_str.extend(source_str)
+        else:
+            result_str.append('A')
+    return ''.join(result_str)
+
+if _name_ == "_main_":
+    num_cases = int(input())
+    
+    for _ in range(num_cases):
+        source_input = input().strip()
+        template_input = input().strip()
+        
+        output_string = get_smallest_string(source_input, template_input)
+        print(output_string)

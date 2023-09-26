@@ -1,0 +1,121 @@
+#title {
+    background-color: black;
+}
+
+#features {
+    background-color: black;
+    color: white;
+    padding-bottom: 1px;
+}
+
+#testimonials {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial-bold;
+}
+
+.testimonial-image {
+    padding-top: 102px;
+}
+
+#pricing {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#cta {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.row {
+    padding-left: 38px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    text-align: center
+}
+
+.social-icon {
+    margin: 9px;
+}
+
+.navbar-brand {
+    font-size: 47px;
+}
+
+.feature-box h3 {
+    padding-top: 9px;
+}
+
+.feature-box i {
+    padding-left: 60px;
+}
+
+.feature-set h3 {
+    padding-left: 9px;
+}
+
+.feature-set i {
+    padding-left: 63px;
+}
+
+.feature-jet h3 {
+    padding-top: 9px;
+}
+
+.feature-jet i {
+    padding-left: 127px;
+}
+
+.icon:hover {
+    color: tomato;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    color: white;
+}
+
+.A4 {
+    height: 985px;
+}
+
+.A3 img {
+    height: 2000px;
+    width: 1520px;
+}
+
+.A5 img {
+    height: 1167px;
+    width: 1524px;
+}
+
+.A6 img {
+    height: 1439px;
+    width: 1522px;
+}
+
+.A1 img {
+    height: 1511px;
+    width: 1522px;
+}
+
+.A2 img {
+    width: 1526px;
+    height: 1590px;
+}
+
+@media(max-width:1385px) {
+    .A4 {
+        position: static;
+    }
+}
